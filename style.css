@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Hubballi&display=swap');
+
+p {
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imagetile{
+    background-image: url('assets/horizontal.png');
+    background-repeat: repeat; /* Repeats the image horizontally and vertically */
+    background-size: contain; /* Default size of the image */
+    background-position: top; /* Aligns the image to the top */
+    height: 3em; /* Adjust height to fit your design */
+    display: flex; /* For centering content */
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */
+}
+.imagetilebottom{
+    background-image: url('assets/horizontal_bottom.png');
+    background-repeat: repeat; /* Repeats the image horizontally and vertically */
+    background-size: contain; /* Default size of the image */
+    background-position: top; /* Aligns the image to the top */
+    height: 3em; /* Adjust height to fit your design */
+    display: flex; /* For centering content */
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */
+}
+
+.textdiv{
+    padding: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+}
+
+.artdiv{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 16px;
+    padding: 16px;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.parentdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artitem {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.artitem img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+.artitem p {
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: #333;
+}
