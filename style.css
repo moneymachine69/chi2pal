@@ -43,9 +43,8 @@ body {
 
 .textdiv{
     padding: 1em;
-    margin-left: 10em;
-    margin-right: 10em;
     text-align: center;
+    justify-content: center;
 }
 
 .artdiv{
